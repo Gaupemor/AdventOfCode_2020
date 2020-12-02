@@ -1,7 +1,7 @@
 # Advent of Code 2020
 
 ### Tally: ```4```
-:star: :star: :star: :star
+:star: :star: :star: :star:
 
 - Day 1
     - 1: 1013211
