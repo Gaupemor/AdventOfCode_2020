@@ -3,8 +3,9 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 
 public class Solution_03 {
+
     private static boolean[][] parseInput() {
-        String path = "C:\\Users\\selma\\IdeaProjects\\AOC2020\\input\\input_03.txt";
+        String path = InputPath.input_03.getPath();
 
         try {
             String[] s = Files.readAllLines(Path.of(path)).toArray(new String[0]);

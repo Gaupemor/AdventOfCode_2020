@@ -5,7 +5,7 @@ import java.nio.file.Path;
 public class Solution_01 {
 
     private static int[] parseInput() {
-        String path = "C:\\Users\\selma\\IdeaProjects\\AOC2020\\input\\input_01.txt";
+        String path = InputPath.input_01.getPath();
         try {
             return Files.lines(Path.of(path))
                     .mapToInt(s -> Integer.parseInt(String.valueOf(s)))

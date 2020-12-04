@@ -9,7 +9,7 @@ import java.util.Scanner;
 
 public class Solution_02 {
     private static List<Triplet<Character, Range<Integer>, String>> parseInput() {
-        String path = "C:\\Users\\selma\\IdeaProjects\\AOC2020\\input\\input_02.txt";
+        String path = InputPath.input_02.getPath();
         List<Triplet<Character, Range<Integer>, String>> l = new ArrayList<>();
         try (Scanner in = new Scanner(Path.of(path))) {
             while (in.hasNextLine()) {

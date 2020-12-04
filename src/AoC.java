@@ -1,5 +1,5 @@
 public class AoC {
     public static void main(String[] args) {
-        Solution_03.solveAll();
+        Solution_04.solveAll();
     }
 }
