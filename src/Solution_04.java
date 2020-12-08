@@ -91,11 +91,11 @@ public class Solution_04 {
             } else valid = "cid".equals(k);
 
             if (!valid) return false;
-        } return true;
+        } return realPassport(passport);
     }
 
     private static List<List<KeyValue<String, String>>> validPassports() {
-        return realPassports().stream()
+        return parseInput().stream()
                 .filter(Solution_04::validPassport)
                 .collect(Collectors.toList());
     }
