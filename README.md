@@ -1,10 +1,11 @@
 # Advent of Code 2020
 
-### Tally: ```18```
+### Tally: ```23```
 :star: :star: :star: :star: :star: 
 :star: :star: :star: :star: :star: 
 :star: :star: :star: :star: :star: 
-:star: :star: :star:
+:star: :star: :star: :star: :star: 
+:star: :star: :star: 
 
 - Day 1
     - 1: 1013211
@@ -33,3 +34,12 @@
 - Day 9
     - 1: 1504371145
     - 2: 183278487
+- Day 10
+    - 1: 1700
+    - 2: *[muffled sounds of gorilla violence]*
+- Day 11
+    - 1: 2476
+    - 2: 2257
+- Day 12
+    - 1: 1424
+    - 2: 63447
